@@ -1,0 +1,40 @@
+body {
+    font-family: Roboto, sans-serif;
+    background: linear-gradient(0deg, #000000 1%, #303030 99%);
+    background-attachment: fixed;
+
+    animation: fadeInAnim linear 1.5;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-size: xx-large;
+}
+
+.title1 {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 50px;
+}
+
+@keyframes fadeInAnim {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.image1 {
+    border-radius: 10%;
+    align-self: left;
+    margin-left: 50px;
+}
+
+.image1sub {
+    margin-left: 350px;
+    margin-right: 150px;
+    margin-top: -150px;
+    color: white;
+}
